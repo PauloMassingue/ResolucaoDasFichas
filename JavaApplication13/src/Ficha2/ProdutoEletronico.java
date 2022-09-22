@@ -4,10 +4,10 @@ public abstract class ProdutoEletronico {
     private int nrSerie;
     private String tipo;
    
-    public boolean ligar(){
-        return true;
+    public void ligar(){
+        
     }      
-    public boolean desligar(){
-        return false;
+    public void desligar(){
+       
     }
 }
