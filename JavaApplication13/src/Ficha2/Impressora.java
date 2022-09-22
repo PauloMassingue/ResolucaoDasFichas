@@ -20,6 +20,11 @@ public void ligar(){
 public void desligar(){
     System.out.println("A impressora nao esta mais disponivel");
 }
+
+    @Override
+    public String toString() {
+        return "Impressora{" + "velocidadeI=" + velocidadeI + '}';
+    }
    
 
     

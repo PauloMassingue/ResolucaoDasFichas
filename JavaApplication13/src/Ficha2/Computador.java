@@ -13,7 +13,7 @@ private String velocidadeP;
         this.velocidadeP = velocidadeP;
     }
 
-public void processar(String velocidadeP){
+public void processar(){
     System.out.println("O computador processando");
 }
 @Override
@@ -23,6 +23,11 @@ public void ligar(){
 public void desligar(){
     System.out.println("O computador ja pode ser desligado com seguranca");
 }
+
+    @Override
+    public String toString() {
+        return "Computador{" + "velocidadeP=" + velocidadeP + '}';
+    }
     
     
 }
