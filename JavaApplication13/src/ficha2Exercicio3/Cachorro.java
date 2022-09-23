@@ -10,5 +10,12 @@ package ficha2Exercicio3;
  * @author Massingue
  */
 public class Cachorro extends Animal {
+    public void late(){
+        System.out.println("Cachorro");
+    }
+    @Override
+    public void caminha(){
+        System.out.println("Cachorro caminhando");
+    }
     
 }

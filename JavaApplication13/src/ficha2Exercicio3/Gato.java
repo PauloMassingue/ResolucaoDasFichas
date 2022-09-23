@@ -10,5 +10,11 @@ package ficha2Exercicio3;
  * @author Massingue
  */
 public class Gato extends Animal {
-    
+    public void Mia(){
+        System.out.println("O gato Mia");
+    }
+    @Override
+    public void caminha(){
+        System.out.println("Cachorro caminando!");
+    }
 }
